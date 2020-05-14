@@ -1,7 +1,4 @@
 # AOx0.github.io
 
-AOx0 General Page / Repo
+[AOx0](https://AOx0.github.io) General Page / Repo
 
-Links:
- - [AOx0.github.io](https://AOx0.github.io)
- - 
