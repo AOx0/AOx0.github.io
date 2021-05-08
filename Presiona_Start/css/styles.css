@@ -1,0 +1,72 @@
+body, select {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+@font-face {
+	font-family: Game;
+	font-style: normal;
+	font-weight: normal;
+	src: local("Game"), url("../fonts/Fluo-Gums.woff") format("woff");
+}
+
+
+@font-face {
+	font-family: MainText;
+	font-style: normal;
+	font-weight: normal;
+	src: local("MainText"), url("../fonts/Asdonuts.woff") format("woff");
+}
+
+h1 {
+    font-size: 5vw;
+    font-family: Game;
+    font-style: normal;
+    font-weight: normal;
+    color: red;
+    text-shadow: 4px 4px black;
+
+}
+
+label, input, button, p {
+    font-size: 4vw;
+    font-family: MainText;
+}
+
+label {
+    color: orange;
+    text-shadow: 2px 2px black;
+    text-decoration-color: white;
+    
+}
+
+*:focus {
+	outline: none;
+}
+
+
+input, button {
+    border: 0;
+    border-radius: 20px;
+
+    padding-top: 5;
+    padding-bottom: 5;
+
+	padding-left: 20;
+	padding-right: 20;
+
+    text-align: center;
+    background-color: white;
+    
+}
+
+.content {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+	min-width: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+
