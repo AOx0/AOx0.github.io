@@ -1,3 +1,12 @@
+document.onkeypress = function (e) {
+    switch (e.key) {
+        case "Enter":
+            checarPalabra();
+    }
+};
+
+
+
 function checarPalabra() {
     var resultado = document.getElementById("resultado");
     var palabra = document.getElementById("palabra").value.toLocaleLowerCase();
